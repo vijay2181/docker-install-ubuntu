@@ -1,4 +1,4 @@
-# docker-install-ubuntu
+# docker-install-on-ubuntu-and-amzln
 
 ```
 sudo apt-get update -y
