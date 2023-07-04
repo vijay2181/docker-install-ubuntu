@@ -1,8 +1,9 @@
 # docker-install-on-ubuntu-and-amzln
 
 ```
-sudo apt-get update -y
-sudo apt install docker.io -y
+# Install Latest Docker
+ curl -fsSL https://get.docker.com -o get-docker.sh
+ sudo sh get-docker.sh
 ```
 
 ubuntu@ip-172-31-23-222:~$ docker --version
