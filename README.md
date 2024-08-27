@@ -22,6 +22,9 @@ Got permission denied while trying to connect to the Docker daemon socket at uni
 ```
 sudo usermod -aG docker <current_username>
 sudo usermod -aG docker ubuntu
+
+or
+sudo chown $USER /var/run/docker.sock
 ```
 
 still if you do **docker ps** you will get permission error, so you need to refreh the terminal or exit from terminal and login back
